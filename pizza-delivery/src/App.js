@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import './App.css';
+import ItemCard from './Components/ItemCard/ItemCard'
 
 class App extends Component {
   render() {
@@ -8,9 +9,15 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <p>
-            Hi Tanisha, this is your Pizza Delivery App
+            Pizza
           </p>
         </header>
+          <body className="App-body">
+            <ItemCard/>
+            <ItemCard/>
+            <ItemCard/>
+            <ItemCard/>
+          </body>
       </div>
     );
   }

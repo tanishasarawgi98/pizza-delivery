@@ -1,0 +1,6 @@
+.item-card {
+    width : 25vw;
+    border: 1px solid;
+    margin : 2vw;
+    display: inline-block;
+}
